@@ -1,0 +1,26 @@
+# 密钥
+config.json
+.env
+*.key
+
+# 依赖与构建
+node_modules/
+.venv/
+dist/
+build/
+__pycache__/
+*.py[cod]
+
+# 数据与日志
+data/
+*.db
+*.log
+*.pid
+
+# 个人素材
+images/
+!images/.gitkeep
+
+# 系统
+.DS_Store
+Thumbs.db
